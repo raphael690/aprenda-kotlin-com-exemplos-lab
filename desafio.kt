@@ -42,12 +42,18 @@ fun main() {
             duracao = 120),
         ConteudoEducacional(
             nome = "Python",
-            duracao = 224
+            duracao = 224),
+        ConteudoEducacional(
+            nome = ".Net",
+            duracao = 100),
+        ConteudoEducacional(
+        	nome = "Html Developer",
+        	duracao = 100
         )
     )
 
     val formacaoTest = Formacao(
-        nome = "Linguagem de programacao Java, Kotlin e Python",
+        nome = "Linguagem de programacao Java, Kotlin, Python, .Net e Html Developer",
         conteudos = conteudosTest,
         nivel =  Nivel.AVANCADO
     )
